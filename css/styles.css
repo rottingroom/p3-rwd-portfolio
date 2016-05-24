@@ -2,8 +2,10 @@
 IMPORTS
 *******************/
 
-@import url('css/accessibility.css');
-@import url('css/card-styles.css');
+@import url('reset.css');
+@import url('accessibility.css');
+@import url('card-styles.css');
+
 
 /********************
 YOUR STYLES
