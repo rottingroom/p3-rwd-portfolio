@@ -11,7 +11,45 @@ IMPORTS
 YOUR STYLES
 *******************/
 
+body {
+    width: 90%;
+    margin: 0 auto;
+    background: #222;
+}
 
+.site-title {
+    background: #222;
+}
+
+h1.site-title {
+    color: #ddd;
+}
+
+.lg-backdrop {
+    background: black;
+}
+
+.lg-image {
+    border-radius: 4px;
+    box-shadow: 0 0 8px white;
+}
+
+.card {
+    background: #000;
+}
+
+.card h2,
+.card p {
+    color: #ddd;
+}
+
+.card h2 {
+    font-size: 15px;
+}
+
+.card p {
+    font-size: 11px;
+}
 
 
 /********************
@@ -19,16 +57,16 @@ MEDIA QUERIES
 *******************/
 
 /* Desktop */
-@media (min-width: 1200px) {
+@media (min-width: 75em) {
 
 }
 
 /* Tablet */
-@media (min-width: 768px) {
+@media (min-width: 48em) {
 
 }
 
 /* Mobile */
-@media (min-width: 480px) {
+@media (min-width: 30em) {
 
 }
