@@ -12,13 +12,22 @@ YOUR STYLES
 *******************/
 
 body {
+    background: url(/img/background.jpg);
     width: 90%;
     margin: 0 auto;
-    background: #222;
+    margin-top: 40px;
 }
 
-.site-title {
-    background: #222;
+.masthead {
+    background-color: transparent;
+}
+
+path {
+    fill: #ddd;
+}
+
+svg {
+    height: 100px;
 }
 
 h1.site-title {
@@ -29,6 +38,15 @@ h1.site-title {
     background: black;
 }
 
+/*
+.lg-sub-html {
+    background: red;
+}
+.lg-toolbar {
+    background: red;
+}
+*/
+
 .lg-image {
     border-radius: 4px;
     box-shadow: 0 0 8px white;
@@ -36,6 +54,7 @@ h1.site-title {
 
 .card {
     background: #000;
+    transition: all .5s;
 }
 
 .card h2,
@@ -51,6 +70,21 @@ h1.site-title {
     font-size: 11px;
 }
 
+h1 {
+    font-size: 19px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+a:hover {
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 /********************
 MEDIA QUERIES
